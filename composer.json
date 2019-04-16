@@ -1,0 +1,37 @@
+{
+  "name": "dumpk/potracio",
+  "description": "Potracio for PHP",
+  "keywords": [
+    "laravel",
+    "laraflock",
+    "potracio",
+    "svg"
+  ],
+  "homepage": "http://github.com/dumpk/potracio",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nicolás Bistolfi",
+      "email": "nbistolfi@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require-dev": {
+    "laravel/laravel": "~5.1",
+    "phpunit/phpunit": "~6.2",
+    "phpspec/phpspec": "~2.1"
+  },
+  "autoload": {
+    "classmap": [
+      "tests"
+    ],
+    "psr-4": {
+      "Dumpk\\Potracio\\": "/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dumpk\\Potracio\\Test\\": "tests/"
+    }
+  }
+}
